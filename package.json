@@ -9,7 +9,7 @@
     "watch": "marp slides.md -o index.html --html --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "abaines",
   "license": "ISC",
   "devDependencies": {
     "@marp-team/marp-cli": "^4.2.3"
