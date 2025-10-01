@@ -55,3 +55,4 @@ The workflow:
 - `slides.md` - The main presentation source file (Marp markdown)
 - `index.html` - Generated HTML presentation
 - `.github/workflows/deploy.yml` - GitHub Actions workflow for deployment
+
