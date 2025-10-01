@@ -4,9 +4,9 @@
   "description": "Marp presentation for abaines/search-extension",
   "main": "index.js",
   "scripts": {
-    "build": "marp slides.md -o index.html --html",
+    "build": "marp slides.md -o docs/index.html --html",
     "build:pdf": "marp slides.md -o slides.pdf --allow-local-files",
-    "watch": "marp slides.md -o index.html --html --watch"
+    "watch": "marp slides.md -o docs/index.html --html --watch"
   },
   "keywords": [],
   "author": "abaines",

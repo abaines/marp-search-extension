@@ -38,7 +38,7 @@ npm run build:pdf
 The presentation is automatically deployed to GitHub Pages when changes are pushed to the main branch.
 
 ### Local Viewing
-After building, open `index.html` in your web browser.
+After building, open `docs/index.html` in your web browser.
 
 ## GitHub Actions
 
@@ -53,6 +53,6 @@ The workflow:
 ## Files
 
 - `slides.md` - The main presentation source file (Marp markdown)
-- `index.html` - Generated HTML presentation
+- `docs/index.html` - Generated HTML presentation
 - `.github/workflows/deploy.yml` - GitHub Actions workflow for deployment
 
