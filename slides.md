@@ -58,6 +58,8 @@ footer: 'Presentation by abaines'
 - TypeScript for type safety
 - Modern tooling for developer experience
 
+![bg right width:256px](images/icon-128.png)
+
 ---
 
 ## Challenges Encountered
