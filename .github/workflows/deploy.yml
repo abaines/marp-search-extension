@@ -34,6 +34,11 @@ jobs:
       - name: Build presentation
         run: npm run build
 
+      - name: Copy all images for GitHub Pages
+        run: |
+          mkdir -p docs/images
+          cp -r images/* docs/images/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
