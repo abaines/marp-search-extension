@@ -6,6 +6,15 @@ header: 'Search Extension Project'
 footer: 'Presentation by abaines'
 ---
 
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
 # Search Extension Project
 ## A Comprehensive Overview
 
@@ -58,14 +67,22 @@ footer: 'Presentation by abaines'
 - TypeScript for type safety
 - Modern tooling for developer experience
 
+![bg right width:256px](images/icon-128.png)
+
 ---
 
 ## Challenges Encountered
+
+<div class="container">
+<div class="col">
 
 ### Technical Challenges
 1. **Cross-browser Compatibility**
    - Different API implementations
    - Solution: Abstraction layer and polyfills
+
+</div>
+<div class="col">
 
 2. **Performance Optimization**
    - Large dataset searches
@@ -74,6 +91,9 @@ footer: 'Presentation by abaines'
 3. **Security Concerns**
    - User data privacy
    - Solution: Local storage, no external data transmission
+
+</div>
+</div>
 
 ---
 
