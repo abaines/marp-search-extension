@@ -29,12 +29,16 @@ Alan Baines
 
 ### The "Why" Behind the "How"
 
-* Lead Software Engineer, Developer Experience (DevEx) Champion, and Team Catalyst. 🧡
-* **Core Principle:** Technology choices should prioritize long-term sustainability, transparency, and maintainability.
-* **Mentorship:** I believe in empowering colleagues by guiding them to solutions, not just giving them the answer.
-* **Mission:** To create tools and processes that help teams do their best work.
+- Lead Software Engineer, Developer Experience (DevEx) Champion, and Team Catalyst 🧡
+- **Core Principles**
+- **Mentorship** 
+- **Mission**
 
-<!-- speaker notes? -->
+<!-- 
+* **Core Principles:** Technology choices should prioritize long-term sustainability, transparency, and maintainability.
+* **Mentorship:** Empowering colleagues, pair progamming, and growth focused code reviews.
+* **Mission:** To create tools and processes that help teams do their best work. Force Multiplier.
+ -->
 
 ---
 
