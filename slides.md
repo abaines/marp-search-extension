@@ -204,8 +204,9 @@ Two primary AI partners were used for distinct tasks:
 ## Questions?
 
 **Links:**
-* **GitHub Repo:** [link]
-* **Chrome Store:** [link]
-* **LinkedIn/Portfolio:** [link]
+* **GitHub Repo:** [github.com/abaines/search-extension](https://github.com/abaines/search-extension)
+* **Chrome Store:** [OpenHighlighter](https://chromewebstore.google.com/detail/openhighlighter/keflkfcjfkljbafefaemchogmlnanjgi)
+* **LinkedIn:** [in/alan-baines](https://www.linkedin.com/in/alan-baines)
+* **This presentation:** [abaines.github.io/marp-search-extension](https://abaines.github.io/marp-search-extension)
 
-## Thank You!
+## Thank You! 🍰
