@@ -7,7 +7,7 @@
     "build": "marp slides.md -o docs/index.html --html",
     "build:pdf": "marp slides.md -o slides.pdf --allow-local-files",
   "watch": "marp slides.md -o docs/index.html --html --watch",
-  "preview": "serve docs --single --listen 5000"
+  "preview": "mkdir -p docs/images && cp -r images/* docs/images/ && serve docs --single --listen 5000"
   },
   "keywords": [],
   "author": "abaines",
