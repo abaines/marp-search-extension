@@ -33,6 +33,8 @@ footer: 'Presentation by abaines'
 - Created user stories and use cases
 - Defined acceptance criteria for each feature
 
+<!-- speaker notes? -->
+
 ---
 
 ## Stakeholder Engagement
