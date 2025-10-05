@@ -6,12 +6,14 @@
   "scripts": {
     "build": "marp slides.md -o docs/index.html --html",
     "build:pdf": "marp slides.md -o slides.pdf --allow-local-files",
-    "watch": "marp slides.md -o docs/index.html --html --watch"
+  "watch": "marp slides.md -o docs/index.html --html --watch",
+  "preview": "serve docs --single --listen 5000"
   },
   "keywords": [],
   "author": "abaines",
   "license": "Copyright 2025 Alan Baines",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.2.3"
+    "@marp-team/marp-cli": "^4.2.3",
+    "serve": "^14.2.5"
   }
 }
