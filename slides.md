@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: 'Search Extension Project'
-footer: 'Presentation by abaines'
+footer: 'Presentation by Alan Baines'
 ---
 
 <style>
@@ -196,13 +196,13 @@ Outcome: A robust solution that works seamlessly on modern, dynamic websites.
 ## Challenge 2: Resisting the Urge to "Just Fix It"
 
 - AI struggled with simple changes
-- Treated AI like an intern, guided with prompts
+- Treated AI like a junior engineer, guided with prompts
 - Learned strengths/weaknesses of AI
 
 <!--
 The Problem: The AI often struggled with simple tasks (e.g., changing a width from 50px to 100px), proposing overly complex solutions. The temptation to manually intervene was immense.
 The Approach:
-- I treated the AI like an intern I was mentoring.
+- I treated the AI like a junior I was mentoring.
 - Instead of taking over, I refined my prompts, corrected its course, and guided it to the simple, correct solution.
 Why? This adhered to the project's experimental goal and provided deep insight into the AI's strengths (boilerplate, discovery) and weaknesses (context, simple edits). This was an exercise in patience and mentorship.
 -->
@@ -211,9 +211,20 @@ Why? This adhered to the project's experimental goal and provided deep insight i
 
 ## Challenge 3: Becoming an AI-Assisted Artist
 
+<div class="container">
+<div style="flex:2">
+
 - Needed many icons/images for Chrome Store
 - Used AI to generate SVGs, then converted to PNGs
 - Automated image resizing with script
+
+</div>
+<div class="col">
+
+![ext-icon width:256px](images/icon-128.png)
+
+</div>
+</div>
 
 <!--
 The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not a designer.
