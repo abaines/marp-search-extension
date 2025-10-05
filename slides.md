@@ -23,6 +23,8 @@ Alan Baines
 
 2025 October
 
+<!-- 🎈 speaker notes show up like this! 👋 -->
+
 ---
 
 ## About Me & My Philosophy
