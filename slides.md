@@ -174,48 +174,72 @@ Gemini:
 
 ## Challenge 1: Taming Single Page Applications (SPAs)
 
-- **The Problem:** Dynamically loaded content was not being highlighted.
-- **The Solution:**
-    1.  **Trigger:** Use an event listener to monitor for network calls, a reliable heuristic for when new content might have appeared.
-    2.  **Logic:** When a network call completes, trigger the highlighting function.
-    3.  **Refinement:** Re-running the highlighter created duplicate highlights. The process was updated to be a two-step sequence:
-        - First, find and remove all existing highlight tags.
-        - Then, perform a fresh highlighting pass on the entire document.
-- **Outcome:** A robust solution that works seamlessly on modern, dynamic websites.
+- Dynamic content not highlighted
+- Used event listeners to re-apply highlights
+- Removed duplicates for clean results
+
+<!--
+The Problem: Dynamically loaded content was not being highlighted.
+The Solution:
+1. Trigger: Use an event listener to monitor for network calls, a reliable heuristic for when new content might have appeared.
+2. Logic: When a network call completes, trigger the highlighting function.
+3. Refinement: Re-running the highlighter created duplicate highlights. The process was updated to be a two-step sequence:
+    - First, find and remove all existing highlight tags.
+    - Then, perform a fresh highlighting pass on the entire document.
+Outcome: A robust solution that works seamlessly on modern, dynamic websites.
+-->
 
 ---
 
 ## Challenge 2: Resisting the Urge to "Just Fix It"
 
-- **The Problem:** The AI often struggled with simple tasks (e.g., changing a width from `50px` to `100px`), proposing overly complex solutions. The temptation to manually intervene was immense.
-- **The Approach:**
-    - I treated the AI like an intern I was mentoring.
-    - Instead of taking over, I refined my prompts, corrected its course, and guided it to the simple, correct solution.
-- **Why?** This adhered to the project's experimental goal and provided deep insight into the AI's strengths (boilerplate, discovery) and weaknesses (context, simple edits). This was an exercise in patience and mentorship.
+- AI struggled with simple changes
+- Treated AI like an intern, guided with prompts
+- Learned strengths/weaknesses of AI
+
+<!--
+The Problem: The AI often struggled with simple tasks (e.g., changing a width from 50px to 100px), proposing overly complex solutions. The temptation to manually intervene was immense.
+The Approach:
+- I treated the AI like an intern I was mentoring.
+- Instead of taking over, I refined my prompts, corrected its course, and guided it to the simple, correct solution.
+Why? This adhered to the project's experimental goal and provided deep insight into the AI's strengths (boilerplate, discovery) and weaknesses (context, simple edits). This was an exercise in patience and mentorship.
+-->
 
 ---
 
 ## Challenge 3: Becoming an AI-Assisted Artist
 
-- **The Problem:** The Chrome Store requires numerous icons and promotional images, but I'm not a designer.
-- **The Process:**
-    1.  **Experiment:** Used a generative AI to create icon concepts as SVGs, iteratively refining them with prompts (`"make the handle longer"`).
-    2.  **Roadblock:** Discovered the Chrome Store does not accept SVG files. 😱
-    3.  **Pivot:** I had a perfect vector source but needed dozens of specific PNG sizes.
-    4.  **Automation:** Prompted the AI to write a command-line script to take the master SVG and automatically convert it into all required PNG dimensions.
+- Needed many icons/images for Chrome Store
+- Used AI to generate SVGs, then converted to PNGs
+- Automated image resizing with script
+
+<!--
+The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not a designer.
+The Process:
+1. Experiment: Used a generative AI to create icon concepts as SVGs, iteratively refining them with prompts ("make the handle longer").
+2. Roadblock: Discovered the Chrome Store does not accept SVG files.
+3. Pivot: I had a perfect vector source but needed dozens of specific PNG sizes.
+4. Automation: Prompted the AI to write a command-line script to take the master SVG and automatically convert it into all required PNG dimensions.
+-->
 
 ---
 
 ## Challenge 4: The Publishing Gauntlet
 
-- **The Problem:** The Google Chrome Web Store review process.
-- **Key Hurdles:**
-    - **Manual Review:** Due to the powerful permissions required, the extension was flagged for a mandatory human review.
-    - **Slow Iteration Cycle:** Each submission, even for a minor text change on the store page, took up to half a week for approval.
-    - **Thorough Justification:** Required detailed explanations for why each permission was necessary.
-- **How I Overcame It:**
-    - Used Gemini to help draft clear, concise justifications for the reviewers.
-    - Learned to batch changes and plan submissions to minimize delays.
+- Chrome Web Store review was slow and strict
+- Used Gemini for permission justifications
+- Batched changes to speed up approval
+
+<!--
+The Problem: The Google Chrome Web Store review process.
+Key Hurdles:
+- Manual Review: Due to the powerful permissions required, the extension was flagged for a mandatory human review.
+- Slow Iteration Cycle: Each submission, even for a minor text change on the store page, took up to half a week for approval.
+- Thorough Justification: Required detailed explanations for why each permission was necessary.
+How I Overcame It:
+- Used Gemini to help draft clear, concise justifications for the reviewers.
+- Learned to batch changes and plan submissions to minimize delays.
+-->
 
 ---
 
@@ -223,22 +247,34 @@ Gemini:
 
 ### Published, Private, and Polished
 
-- **Project Goals Achieved:**
-    - ✅ Fully functional extension that meets all core and evolved requirements.
-    - ✅ Published and available on the official Google Chrome Web Store.
-    - ✅ 100% open-source, private, and verifiable, with clean, auditable code.
-    - ✅ Professional-looking assets and a complete store listing.
-- **Personal Impact:**
-    - Gained a deep, practical understanding of AI-assisted development workflows.
-    - Learned the entire modern Chrome extension development and publishing lifecycle.
+- Extension published and meets all goals
+- 100% open-source, private, verifiable
+- Learned full Chrome extension lifecycle
+
+<!--
+Project Goals Achieved:
+- Fully functional extension that meets all core and evolved requirements
+- Published and available on the official Google Chrome Web Store
+- 100% open-source, private, and verifiable, with clean, auditable code
+- Professional-looking assets and a complete store listing
+Personal Impact:
+- Gained a deep, practical understanding of AI-assisted development workflows
+- Learned the entire modern Chrome extension development and publishing lifecycle
+-->
 
 ---
 
 ## Key Takeaways
 
-- **On AI Development:** AI is a powerful **accelerator**, not a replacement for engineering expertise. The senior developer's role shifts towards architecture, review, and precise prompt engineering.
-- **On Privacy:** Building trustworthy software requires deliberate choices. Simplicity and transparency (like using plain JS) are features in themselves.
-- **On Personal Projects:** They are invaluable for exploring new technologies and processes in a low-risk, high-learning environment.
+- AI accelerates, but doesn’t replace expertise
+- Simplicity and transparency build trust
+- Personal projects = high learning, low risk
+
+<!--
+On AI Development: AI is a powerful accelerator, not a replacement for engineering expertise. The senior developer's role shifts towards architecture, review, and precise prompt engineering.
+On Privacy: Building trustworthy software requires deliberate choices. Simplicity and transparency (like using plain JS) are features in themselves.
+On Personal Projects: They are invaluable for exploring new technologies and processes in a low-risk, high-learning environment.
+-->
 
 ---
 
