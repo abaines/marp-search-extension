@@ -56,3 +56,12 @@ The workflow:
 - `docs/index.html` - Generated HTML presentation
 - `.github/workflows/deploy.yml` - GitHub Actions workflow for deployment
 
+## VS Code Extension Recommendation
+
+For the best experience editing and previewing Marp slides, install the **Marp for VS Code** extension:
+
+- You should see a prompt to install it when opening this project in VS Code (see .vscode/extensions.json).
+- Or, install it manually from the Extensions Marketplace: [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+
+This extension enables live preview and export of Marp slides directly from VS Code.
+
