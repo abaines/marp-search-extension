@@ -46,12 +46,16 @@ Alan Baines
 
 ### Why a Personal Project?
 
-- Much of my professional work is proprietary and covered by NDAs.
-- I chose a recent, open-source project to allow for a fully transparent discussion.
-- This project was a personal exploration into:
-    - Modern Chrome Extension development.
-    - The practical boundaries of AI-assisted coding.
-    - The full product lifecycle: from idea to the official Chrome Web Store.
+- Chose open-source project for transparency
+- Explored Chrome Extension dev, AI coding, full product lifecycle
+
+<!--
+Much of my professional work is proprietary and covered by NDAs.
+This project was a personal exploration into:
+- Modern Chrome Extension development
+- The practical boundaries of AI-assisted coding
+- The full product lifecycle: from idea to the official Chrome Web Store
+-->
 
 ---
 
@@ -59,11 +63,17 @@ Alan Baines
 
 ### The Search for a Trustworthy Tool
 
-- **Goal:** Find a browser extension to highlight multiple keywords on a page.
-- **Problem:** Existing solutions lacked a critical feature: **Trust.**
-- Extensions with this functionality require invasive permissions (`"read all your data on all websites"`).
-- No available options were open-source, making it impossible to verify that user data wasn't being tracked or sent to a third party.
-- This presented an unacceptable privacy and security risk.
+- Needed multi-keyword highlighter extension
+- No open-source, privacy-first options
+- Existing tools required invasive permissions
+
+<!--
+Goal: Find a browser extension to highlight multiple keywords on a page.
+Problem: Existing solutions lacked a critical feature: Trust.
+Extensions with this functionality require invasive permissions ("read all your data on all websites").
+No available options were open-source, making it impossible to verify that user data wasn't being tracked or sent to a third party.
+This presented an unacceptable privacy and security risk.
+-->
 
 ---
 
@@ -71,13 +81,19 @@ Alan Baines
 
 ### If you want it done right, build it yourself.
 
-- A Chrome extension to find and highlight multiple keywords.
-- **Core Mandate #1: Privacy First.** All operations are 100% local to the browser. No network calls, no data exfiltration.
-- **Core Mandate #2: Verifiable.** Fully open-source so anyone can audit the code and confirm the privacy claims.
-- **Functionality:**
-    - Accepts a list of words.
-    - Highlights all occurrences on a page.
-    - Persists word lists using local storage.
+- Built my own extension
+- 100% local, open-source, auditable
+- Highlights user keywords, saves lists
+
+<!--
+A Chrome extension to find and highlight multiple keywords.
+Core Mandate #1: Privacy First. All operations are 100% local to the browser. No network calls, no data exfiltration.
+Core Mandate #2: Verifiable. Fully open-source so anyone can audit the code and confirm the privacy claims.
+Functionality:
+- Accepts a list of words
+- Highlights all occurrences on a page
+- Persists word lists using local storage
+-->
 
 ---
 
@@ -85,13 +101,19 @@ Alan Baines
 
 ### From Static Pages to a Dynamic Web
 
-- **Initial Requirements:**
-    - Must be open-source and make no network calls.
-    - Users can add/remove multiple keywords.
-    - Keywords are saved between sessions.
-- **Evolved Requirement (Discovered during use):**
-    - **The SPA Problem:** On sites like LinkedIn, content loads dynamically without a full page refresh. The initial highlighting logic would miss this new content.
-    - **New Requirement:** The extension must detect page content changes and re-apply highlighting automatically.
+- Open-source, no network calls
+- Add/remove/save keywords
+- Must handle dynamic content (SPAs)
+
+<!--
+Initial Requirements:
+- Must be open-source and make no network calls
+- Users can add/remove multiple keywords
+- Keywords are saved between sessions
+Evolved Requirement (Discovered during use):
+- The SPA Problem: On sites like LinkedIn, content loads dynamically without a full page refresh. The initial highlighting logic would miss this new content.
+- New Requirement: The extension must detect page content changes and re-apply highlighting automatically.
+-->
 
 ---
 
@@ -99,12 +121,18 @@ Alan Baines
 
 ### A Human-in-the-Loop, AI-Driven Approach
 
-- **The "Pseudo-Requirement":** I would not write any of the functional code myself.
-- **My Role:** Acted as the senior engineer/architect.
-    - Provided clear, technical prompts to the AI (GitHub Copilot).
-    - Performed rigorous code reviews on every line of generated code.
-    - Asked the AI to explain complex or unfamiliar concepts.
-- **The Goal:** To explore the capabilities and limitations of AI as a development partner and learn how to leverage it effectively.
+- I only wrote prompts, not code
+- Acted as architect, reviewer, mentor
+- Explored AI’s strengths and limits
+
+<!--
+The "Pseudo-Requirement": I would not write any of the functional code myself.
+My Role: Acted as the senior engineer/architect.
+- Provided clear, technical prompts to the AI (GitHub Copilot)
+- Performed rigorous code reviews on every line of generated code
+- Asked the AI to explain complex or unfamiliar concepts
+The Goal: To explore the capabilities and limitations of AI as a development partner and learn how to leverage it effectively.
+-->
 
 ---
 
@@ -112,11 +140,16 @@ Alan Baines
 
 ### Why Plain JavaScript?
 
-- **Primary Goal:** Verifiability and Transparency.
-- While tools like TypeScript or Rust/WASM are powerful, they add a compilation/transpilation step.
-- This obfuscates the final code, making it harder for a non-expert to audit and trust.
-- Plain JavaScript ensures that "what you see is what you get." The code in the repository is the code that runs in the browser.
-- This decision directly supports the core mission of creating a provably private tool.
+- Used plain JavaScript for transparency
+- No build step, easy to audit
+
+<!--
+Primary Goal: Verifiability and Transparency.
+While tools like TypeScript or Rust/WASM are powerful, they add a compilation/transpilation step.
+This obfuscates the final code, making it harder for a non-expert to audit and trust.
+Plain JavaScript ensures that "what you see is what you get." The code in the repository is the code that runs in the browser.
+This decision directly supports the core mission of creating a provably private tool.
+-->
 
 ---
 
@@ -124,14 +157,18 @@ Alan Baines
 
 ### Delineating AI Roles
 
-Two primary AI partners were used for distinct tasks:
+- Copilot: code generation
+- Gemini: docs, prose, compliance
 
-- **GitHub Copilot:**
-    - **Role:** The Code Generator.
-    - **Tasks:** Writing functions, implementing logic, modifying the manifest file, navigating the Chrome extension APIs.
-- **Gemini:**
-    - **Role:** The Prose & Documentation Generator.
-    - **Tasks:** Authoring the justifications for store permissions, writing the "About" page, answering the Chrome Store's compliance questionnaire.
+<!--
+Two primary AI partners were used for distinct tasks:
+GitHub Copilot:
+- Role: The Code Generator
+- Tasks: Writing functions, implementing logic, modifying the manifest file, navigating the Chrome extension APIs
+Gemini:
+- Role: The Prose & Documentation Generator
+- Tasks: Authoring the justifications for store permissions, writing the "About" page, answering the Chrome Store's compliance questionnaire
+-->
 
 ---
 
