@@ -221,7 +221,7 @@ Why? This adhered to the project's experimental goal and provided deep insight i
 </div>
 <div class="col">
 
-![ext-icon width:256px](images/icon-128.png)
+<img src="images/icon-128.png" alt="ext-icon" width="256" style="padding-left: 24px;margin-left:24px;">
 
 </div>
 </div>
