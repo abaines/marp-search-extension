@@ -326,7 +326,7 @@ How I Overcame It:
 - ✅ Extension published and meets all goals
 - ✅ 100% source-available, private, verifiable
 - ✅ Learned full Chrome extension lifecycle
-- ✅ Learned a lot more about interactions with Copilot
+- ✅ Gained deeper insight into Copilot interactions
 
 <!--
 Project Goals Achieved:
@@ -373,7 +373,7 @@ On Personal Projects: They are invaluable for exploring new technologies and pro
 <!--
 Credits:
 Marp-team for Marp, which has been awesome!
-Github Copilot
+GitHub Copilot
 Gemini
 -->
 
