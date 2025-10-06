@@ -39,11 +39,11 @@ Alan Baines
 - Mission
 
 <!-- 
-- Core Principles: Technology choices should prioritize long-term sustainability, transparency, and maintainability.
+Core Principles: Technology choices should prioritize long-term sustainability, transparency, and maintainability.
 
-- Mentorship: Empowering colleagues, pair progamming, and growth focused code reviews.
+Mentorship: Empowering colleagues, pair progamming, and growth focused code reviews.
 
-- Mission: To create tools and processes that help teams do their best work. Force Multiplier.
+Mission: To create tools and processes that help teams do their best work. Force Multiplier.
  -->
 
 ---
@@ -75,10 +75,11 @@ This project was a personal exploration into:
 
 - Needed multi-keyword highlighter extension
 - No open-source, privacy-first options
-- Existing tools required invasive permissions
+- Tools required invasive permissions
 
 <!--
 Goal: Find a browser extension to highlight multiple keywords on a page.
+🟠 Reduce cognative load; Universal design
 
 Problem: Existing solutions lacked a critical feature: Trust.
 
@@ -96,7 +97,7 @@ This presented an unacceptable privacy and security risk.
 ### If you want it done right, build it yourself.
 
 - Built my own extension
-- 100% local, open-source, auditable
+- 100% local, source-available, auditable
 - Highlights user keywords, saves lists
 
 <!--
@@ -104,7 +105,7 @@ A Chrome extension to find and highlight multiple keywords.
 
 Core Mandate #1: Privacy First. All operations are 100% local to the browser. No network calls, no data exfiltration.
 
-Core Mandate #2: Verifiable. Fully open-source so anyone can audit the code and confirm the privacy claims.
+Core Mandate #2: Verifiable. Fully source-available so anyone can audit the code and confirm the privacy claims.
 
 Functionality:
 
@@ -113,6 +114,27 @@ Functionality:
 - Highlights all occurrences on a page
 
 - Persists word lists using local storage
+-->
+
+---
+
+## Requirements Gathering
+
+### Core User Needs
+
+- Source-available, no network calls
+- Add/remove keywords
+- Save keywords
+
+<!--
+Initial Requirements:
+
+- Must be open-source and make no network calls
+
+- Users can add/remove multiple keywords
+
+- Keywords are saved between sessions
+
 -->
 
 ---
@@ -126,14 +148,6 @@ Functionality:
 - Must handle dynamic content (SPAs)
 
 <!--
-Initial Requirements:
-
-- Must be open-source and make no network calls
-
-- Users can add/remove multiple keywords
-
-- Keywords are saved between sessions
-
 Evolved Requirement (Discovered during use):
 
 - The SPA Problem: On sites like LinkedIn, content loads dynamically without a full page refresh. 
@@ -355,3 +369,11 @@ On Personal Projects: They are invaluable for exploring new technologies and pro
 - **This presentation:** [abaines.github.io/marp-search-extension](https://abaines.github.io/marp-search-extension)
 
 ## Thank You! 🍰
+
+<!--
+Credits:
+Marp-team for Marp, which has been awesome!
+Github Copilot
+Gemini
+-->
+
