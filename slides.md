@@ -6,15 +6,6 @@ header: 'Search Extension Project'
 footer: 'Presentation by Alan Baines'
 ---
 
-<style>
-.container{
-    display: flex;
-}
-.col{
-    flex: 1;
-}
-</style>
-
 # Verifiable Multi-Highlight Tool: A Case Study in Privacy-First Development and AI Collaboration
 
 ### A Technical Deep Dive
