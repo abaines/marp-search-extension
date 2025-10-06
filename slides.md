@@ -143,7 +143,7 @@ Initial Requirements:
 
 ### From Static Pages to a Dynamic Web
 
-- Single Page App problem
+- Single-Page App problem
 - Ergonomics / Usability
 - Must handle dynamic content (SPAs)
 
