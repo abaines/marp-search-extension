@@ -79,7 +79,7 @@ This project was a personal exploration into:
 
 <!--
 Goal: Find a browser extension to highlight multiple keywords on a page.
-🟠 Reduce cognitiveload; Universal design
+🟠 Reduce cognitive load; Universal design
 
 Problem: Existing solutions lacked a critical feature: Trust.
 
