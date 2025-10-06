@@ -143,8 +143,8 @@ Initial Requirements:
 
 ### From Static Pages to a Dynamic Web
 
-- Open-source, no network calls
-- Add/remove/save keywords
+- Single Page App problem
+- Eurganomics / Usability
 - Must handle dynamic content (SPAs)
 
 <!--
@@ -162,7 +162,7 @@ The initial highlighting logic would miss this new content.
 
 ### A Human-in-the-Loop, AI-Driven Approach
 
-- I only wrote prompts, not code
+- I mostly wrote prompts, not code
 - Acted as architect, reviewer, mentor
 - Explored AI’s strengths and limits
 
@@ -208,7 +208,7 @@ This decision directly supports the core mission of creating a provably private 
 ### Delineating AI Roles
 
 - Copilot: code generation
-- Gemini: docs, prose, compliance
+- Gemini: docs, prose, compliance, brainstorming
 
 <!--
 Two primary AI partners were used for distinct tasks:
@@ -227,14 +227,12 @@ Gemini:
 ## Challenge 1: Taming Single Page Applications (SPAs)
 
 - Dynamic content not highlighted
-- Used event listeners to re-apply highlights
+- Used network calls to re-apply highlights
 - Removed duplicates for clean results
 
 <!--
-The Problem: Dynamically loaded content was not being highlighted.
-The Solution:
-
-1. Trigger: Use an event listener to monitor for network calls, a reliable heuristic for when new content might have appeared.
+1. Trigger: Monkey patch network calls, a reliable heuristic for when new content might have appeared.
+🟠 Avoid cyclic refreshes because I was also changing the DOM
 
 2. Logic: When a network call completes, trigger the highlighting function.
 
@@ -252,13 +250,14 @@ Outcome: A robust solution that works seamlessly on modern, dynamic websites.
 - AI struggled with simple changes
 - Treated AI like a junior engineer, guided with prompts
 - Learned strengths/weaknesses of AI
+- Bidirectional Rubby Ducky
 
 <!--
 The Problem: The AI often struggled with simple tasks (e.g., changing a width from 50px to 100px), proposing overly complex solutions. The temptation to manually intervene was immense.
 
 The Approach:
 
-- I treated the AI like a junior I was mentoring.
+- I treated the AI like a junior I was pair programming with.
 
 - Instead of taking over, I refined my prompts, corrected its course, and guided it to the simple, correct solution.
 
@@ -285,10 +284,10 @@ Why? This adhered to the project's experimental goal and provided deep insight i
 </div>
 
 <!--
-The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not a designer.
+The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not an art designer.
 The Process:
 
-1. Experiment: Used a generative AI to create icon concepts as SVGs, iteratively refining them with prompts ("make the handle longer").
+1. Experiment: Used a AI to create icon concepts as SVGs, iteratively refining them with prompts ("make the handle longer").
 
 2. Roadblock: Discovered the Chrome Store does not accept SVG files.
 
@@ -301,9 +300,9 @@ The Process:
 
 ## Challenge 4: The Publishing Gauntlet
 
-- Chrome Web Store review was slow and strict
 - Used Gemini for permission justifications
-- Batched changes to speed up approval
+- Chrome Web Store review was slow and strict
+- Careful around updates to avoid extra waiting on approvals
 
 <!--
 The Problem: The Google Chrome Web Store review process.
@@ -315,7 +314,7 @@ Key Hurdles:
 
 How I Overcame It:
 - Used Gemini to help draft clear, concise justifications for the reviewers.
-- Learned to batch changes and plan submissions to minimize delays.
+- Learned to plan submissions to minimize delays.
 -->
 
 ---
@@ -324,16 +323,17 @@ How I Overcame It:
 
 ### Published, Private, and Polished
 
-- Extension published and meets all goals
-- 100% open-source, private, verifiable
-- Learned full Chrome extension lifecycle
+- ✅ Extension published and meets all goals
+- ✅ 100% source-available, private, verifiable
+- ✅ Learned full Chrome extension lifecycle
+- ✅ Learned a lot more about interactions with copilot
 
 <!--
 Project Goals Achieved:
 
 - Fully functional extension that meets all core and evolved requirements
 - Published and available on the official Google Chrome Web Store
-- 100% open-source, private, and verifiable, with clean, auditable code
+- 100% source-available, private, and verifiable, with clean, auditable code
 - Professional-looking assets and a complete store listing
 
 Personal Impact:
@@ -347,7 +347,7 @@ Personal Impact:
 ## Key Takeaways
 
 - AI accelerates, but doesn’t replace expertise
-- Simplicity and transparency build trust
+- Simplicity is its own feature
 - Personal projects = high learning, low risk
 
 <!--
