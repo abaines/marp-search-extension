@@ -41,7 +41,7 @@ Alan Baines
 <!-- 
 Core Principles: Technology choices should prioritize long-term sustainability, transparency, and maintainability.
 
-Mentorship: Empowering colleagues, pair progamming, and growth focused code reviews.
+Mentorship: Empowering colleagues, pair programming, and growth-focused code reviews.
 
 Mission: To create tools and processes that help teams do their best work. Force Multiplier.
  -->
@@ -79,7 +79,7 @@ This project was a personal exploration into:
 
 <!--
 Goal: Find a browser extension to highlight multiple keywords on a page.
-🟠 Reduce cognative load; Universal design
+🟠 Reduce cognitiveload; Universal design
 
 Problem: Existing solutions lacked a critical feature: Trust.
 
@@ -144,7 +144,7 @@ Initial Requirements:
 ### From Static Pages to a Dynamic Web
 
 - Single Page App problem
-- Eurganomics / Usability
+- Ergonomics / Usability
 - Must handle dynamic content (SPAs)
 
 <!--
@@ -162,7 +162,7 @@ The initial highlighting logic would miss this new content.
 
 ### A Human-in-the-Loop, AI-Driven Approach
 
-- I mostly wrote prompts, not code
+- I wrote mostly prompts, not code
 - Acted as architect, reviewer, mentor
 - Explored AI’s strengths and limits
 
@@ -227,7 +227,7 @@ Gemini:
 ## Challenge 1: Taming Single Page Applications (SPAs)
 
 - Dynamic content not highlighted
-- Used network calls to re-apply highlights
+- Used network call monitoring to re-apply highlights
 - Removed duplicates for clean results
 
 <!--
@@ -250,7 +250,7 @@ Outcome: A robust solution that works seamlessly on modern, dynamic websites.
 - AI struggled with simple changes
 - Treated AI like a junior engineer, guided with prompts
 - Learned strengths/weaknesses of AI
-- Bidirectional Rubby Ducky
+- Bidirectional Rubber Ducky
 
 <!--
 The Problem: The AI often struggled with simple tasks (e.g., changing a width from 50px to 100px), proposing overly complex solutions. The temptation to manually intervene was immense.
@@ -284,10 +284,10 @@ Why? This adhered to the project's experimental goal and provided deep insight i
 </div>
 
 <!--
-The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not an art designer.
+The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not an artist.
 The Process:
 
-1. Experiment: Used a AI to create icon concepts as SVGs, iteratively refining them with prompts ("make the handle longer").
+1. Experiment: Used an AI to create icon concepts as SVGs, iteratively refining them with prompts ("make the handle longer").
 
 2. Roadblock: Discovered the Chrome Store does not accept SVG files.
 
@@ -302,7 +302,7 @@ The Process:
 
 - Used Gemini for permission justifications
 - Chrome Web Store review was slow and strict
-- Careful around updates to avoid extra waiting on approvals
+- Careful with updates to avoid extra waiting for approvals
 
 <!--
 The Problem: The Google Chrome Web Store review process.
@@ -326,7 +326,7 @@ How I Overcame It:
 - ✅ Extension published and meets all goals
 - ✅ 100% source-available, private, verifiable
 - ✅ Learned full Chrome extension lifecycle
-- ✅ Learned a lot more about interactions with copilot
+- ✅ Learned a lot more about interactions with Copilot
 
 <!--
 Project Goals Achieved:
