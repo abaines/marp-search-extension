@@ -100,6 +100,8 @@ This presented an unacceptable privacy and security risk.
 - 100% local, source-available, auditable
 - Highlights user keywords, saves lists
 
+![bg right LinkedIn About Screenshot](images/linkedin-about.png)
+
 <!--
 A Chrome extension to find and highlight multiple keywords.
 
@@ -327,6 +329,9 @@ How I Overcame It:
 - ✅ 100% source-available, private, verifiable
 - ✅ Learned full Chrome extension lifecycle
 - ✅ Gained deeper insight into Copilot interactions
+
+![bg right height:99% right](images/marp-github-chrome-webstore-slide-v3-vertical.png)
+
 
 <!--
 Project Goals Achieved:
