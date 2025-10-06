@@ -270,20 +270,11 @@ Why? This adhered to the project's experimental goal and provided deep insight i
 
 ## Challenge 3: Becoming an AI-Assisted Artist
 
-<div class="container">
-<div style="flex:2">
-
 - Needed many icons/images for Chrome Store
 - Used AI to generate SVGs, then converted to PNGs
 - Automated image resizing with script
 
-</div>
-<div class="col">
-
-<img src="images/icon-128.png" alt="ext-icon" width="256" style="padding-left: 24px;margin-left:24px;">
-
-</div>
-</div>
+![bg right width:75%](images/icon-128-padding.png)
 
 <!--
 The Problem: The Chrome Store requires numerous icons and promotional images, but I'm not an artist.
